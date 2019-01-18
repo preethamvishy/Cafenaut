@@ -16,19 +16,32 @@
 .hero-card-content {
     width: 100%;
     height:auto;
-    padding-top: 55px;
     font-size: 25px;
     font-family: 'Julius Sans One', serif;   
-    background: #ac6885;
-    background: -webkit-linear-gradient(to right, #ff6e7f, #a2dcfc); 
-    background: linear-gradient(to right, #ff6e7f, #a2dcfc); 
-    background: url(https://images.pexels.com/photos/972533/pexels-photo-972533.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);   
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
+}
+.about-column {
+    float: left;
+    width: 50%;
 }
 
-.card-float-left {
-    float: left;
-    margin:25px;
+.row {
+    border: 20px solid #ac6885;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.about-column-content {
+    font-size: 2vw;
+    font-family: 'Lato', sans-serif;
+    color: #ac6885; 
+    height: 100%; 
+    
+}
+.about-column-content {
+    padding: 10px;
+    
 }
