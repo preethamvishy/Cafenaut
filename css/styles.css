@@ -3,8 +3,9 @@ body, html {
   }
 .bg {
     background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("https://images.pexels.com/photos/374860/pexels-photo-374860.jpeg");
+    margin-top: 1px;
     width: 100%;
     height: 100%;
     background-position: center;
@@ -24,6 +25,7 @@ body, html {
     font-family: 'Knewave', cursive;
     font-size: 40px;
 }
+
 .logo-text {
     color:white;
 }
@@ -35,12 +37,12 @@ body, html {
 .subtitle {
     font-family: 'Julius Sans One', serif;
     font-size: 20px;
-    padding: 5px;
+    padding: 15px;
     text-align: center;
 
-    background: #ff6e7f;  
-    background: -webkit-linear-gradient(to right, #ff6e7f, #a2dcfc); 
-    background: linear-gradient(to right, #ff6e7f, #a2dcfc); 
+    background: #d5a0b7;  
+    /* background: -webkit-linear-gradient(to right, #ff6e7f, #a2dcfc); 
+    background: linear-gradient(to right, #ff6e7f, #a2dcfc);  */
 
     -webkit-background-clip: text;
     background-clip: text;
@@ -54,7 +56,24 @@ body, html {
     color: white;
     font-family: 'Julius Sans One', serif;
     font-size: 20px;
-    padding: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+    
+}
+
+.navbar a:hover {
+    color: #d5a0b7;
+    color: linear-gradient(to right, #ff6e7f, #a2dcfc); 
+    background: white;   
+    font-family: 'Julius Sans One', serif;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+    
 }
 .noselect {
     /* thanks to https://stackoverflow.com/posts/4407335/revisions */
