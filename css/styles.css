@@ -85,6 +85,16 @@ body, html {
     text-decoration: none;
 
 }
+.active {
+    color: #d5a0b7;
+    color: linear-gradient(to right, #ff6e7f, #a2dcfc); 
+    background: white;   
+    font-family: 'Julius Sans One', serif;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-decoration: none;
+}
 .noselect {
     /* thanks to https://stackoverflow.com/posts/4407335/revisions */
     -webkit-touch-callout: none; /* iOS Safari */
