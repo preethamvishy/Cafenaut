@@ -68,14 +68,14 @@ img {
 }
 
 .menu-items-container {
-    background: #ff6e7f;  
+    /* background: #ff6e7f;  
     background: -webkit-linear-gradient(to right, #ff6e7f, #a2dcfc); 
-    background: linear-gradient(to right, #ff6e7f, #a2dcfc); 
+    background: linear-gradient(to right, #ff6e7f, #a2dcfc);  */
+    background-color: #d5a0b7;
     width: 95%;
     height: 50vh;
     border-radius: 25px;
     overflow-y: hidden;
-    
     padding-bottom: 15px;
 }
 .menu-nav {
