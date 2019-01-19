@@ -1,4 +1,8 @@
 
+
+
+/*  */
+
 .container {
     display: flex;
     justify-content: center;
@@ -15,7 +19,6 @@
 
 img {
     display: block;
-    max-width: 100%;
     object-fit: cover;
 }
 
@@ -122,7 +125,37 @@ li {
     vertical-align: middle;
     padding: 10px;
     padding-left: 1.25rem;
-    font-family: 'Coiny', cursive;
     font-size: 25px;
+}
+
+.menu-item .job-item {
+    font-size: 1.5rem;
+    width: 2rem;
+    padding: 0.25rem;
+    padding-left: 1rem;
+    display: table-cell;
+    vertical-align: middle;
+    position:relative;
+}
+
+.job-image {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    -webkit-transform: translate(-32%, -32%);
+    -ms-transform: translate(-32%, -32%);
+    transform: translate(-32%, -32%);
+} 
+li {
+    padding: 11px;
+}
+.sub-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 15px;
+}
+.main-text {
+    font-family: 'Lato', sans-serif;
     text-transform: uppercase;
+    line-height: 25px;
 }
