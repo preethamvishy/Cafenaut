@@ -1,8 +1,7 @@
-
-
-
-/*  */
-
+.jobs-banner {
+    width: 100%;
+    text-align: center;
+}
 .container {
     display: flex;
     justify-content: center;
@@ -71,12 +70,9 @@ img {
 }
 
 .menu-items-container {
-    /* background: #ff6e7f;  
-    background: -webkit-linear-gradient(to right, #ff6e7f, #a2dcfc); 
-    background: linear-gradient(to right, #ff6e7f, #a2dcfc);  */
     background-color: #d5a0b7;
-    width: 95%;
-    height: 50vh;
+    width: 60%;
+    height: 60vh;
     border-radius: 25px;
     overflow-y: hidden;
     padding-bottom: 15px;
@@ -142,6 +138,7 @@ li {
     height: 80px;
     width: 80px;
     border-radius: 50%;
+    border: 5px white solid;
     -webkit-transform: translate(-32%, -32%);
     -ms-transform: translate(-32%, -32%);
     transform: translate(-32%, -32%);
@@ -158,4 +155,8 @@ li {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     line-height: 25px;
+}
+
+.jobs-banner .dark-shade {
+    color: #d5a0b7
 }

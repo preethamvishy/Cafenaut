@@ -3,10 +3,6 @@ body, html {
 }
 .hero-bg {
     background-image: 
-    /* linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), */
-    /* url("https://images.pexels.com/photos/374860/pexels-photo-374860.jpeg"); */
-    /* url("https://images.pexels.com/photos/585750/pexels-photo-585750.jpeg"); */
-    /* url(https://images.pexels.com/photos/867470/pexels-photo-867470.jpeg); */
     url(https://images.pexels.com/photos/850384/pexels-photo-850384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     /* url(https://images.pexels.com/photos/935872/pexels-photo-935872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) */
     width: 100%;
@@ -37,6 +33,9 @@ body, html {
     font-size: 40px;
 }
 
+.banner .logo {
+    cursor: pointer;
+}
 .logo-text {
     color:white;
 }
@@ -51,10 +50,8 @@ body, html {
     padding: 15px;
     text-align: center;
 
-    background: #d5a0b7;  
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #d5a0b7;  
+    
 }
 
 .navbar {
@@ -195,10 +192,22 @@ footer {
     color: #d5a0b7;
 }
 
+
 a,
 a:visited {
   text-decoration: none;
 }
+
+.ps a{
+    text-decoration: underline;
+    color: #d5a0b7;
+}
+
+.ps a:visited{
+    text-decoration: underline;
+    color: #d5a0b7;
+}
+
 
 .content-hero-bg {
     background-image: 

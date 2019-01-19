@@ -1,0 +1,10 @@
+.tos-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.tos-container {
+    width: 50%;
+}
