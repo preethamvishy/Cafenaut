@@ -124,3 +124,7 @@ tr td:last-child {
 .medium-shade {
     color: #d5a0b7
 }
+
+.active {
+    color: #d5a0b7;
+}

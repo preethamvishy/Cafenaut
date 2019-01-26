@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+    margin: 0;
 }
 .hero-bg {
     background-image: 
@@ -82,7 +83,6 @@ body, html {
 }
 .active {
     color: #d5a0b7;
-    color: linear-gradient(to right, #ff6e7f, #a2dcfc); 
     background: white;   
     font-family: 'Julius Sans One', serif;
     font-size: 20px;
@@ -336,7 +336,6 @@ a:visited {
     background-color: #f1f1f1;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-
 }
 
 .dropdown-container:hover .dropdown-menu 
@@ -360,6 +359,7 @@ a:visited {
 
 .dropdown-container ul li{
     height:46px;
+    margin: 8px;
 }
 
 .dropdown-item {
@@ -382,4 +382,8 @@ a:visited {
 .dropdown-container:hover ul li:hover a{
     color: white;
     transition: all 0.6s;
+}
+
+.dropdown-container .dropdown-banner-item .active {
+    color: #d5a0b7;
 }

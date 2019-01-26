@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+.jobs-banner {
+    width: 100%;
+    text-align: center;
+}
+
+.form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-items-container {
+    background-color: white;
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+    overflow-y: hidden;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: 10px;
+    box-shadow:0 4px 10px 4px rgba(77, 77, 77,.3);
+    margin-bottom: 20px;
+}
+
+fieldset {
+	border: medium none;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#apply {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: rgb(116, 116, 116);
+} 
+#apply input[type="text"],
+#apply input[type="email"], 
+#apply input[type="tel"], 
+#apply input[type="url"],
+#apply input[type="file"], 
+#apply textarea {
+	width: 100%;
+	border :1px solid #CCC;
+	background: #FFF;
+	margin: 0 0 10px;
+	padding: 10px;
+}
+
+#apply textarea {
+	height: 100px;
+	max-width: 100%;
+    resize: none;
+}
+
+#apply button[type="submit"] {
+	cursor:pointer;
+    width:calc(100%);
+	border:none;
+    background:#ac6885;
+    border-radius: 4px;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#apply input[type="checkbox"] {
+	border :1px solid #CCC;
+}
+select {
+    background: transparent;
+    padding: 5px;
+    height: 34px;
+    width:calc(100%);
+	border:1px solid #CCC;
+    background:#FFF;
+    color: rgb(116, 116, 116);
+	margin: 0 0 10px;
+}
+.disclaimer {
+    color: rgb(116, 116, 116);
+    text-align: justify;
+    width: calc(100%);
+}
+
+#apply input:focus, 
+#apply textarea:focus,
+select:focus {
+    transition: 0.4s;
+	outline:0;
+	border:1px solid #ac6885;
+}
+
+#apply button:focus {
+	outline:0;
+}
