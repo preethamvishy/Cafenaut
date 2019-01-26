@@ -43,5 +43,23 @@
 }
 .about-column-content {
     padding: 10px;
-    
 }
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        word-wrap: break-word;
+    }
+
+    .hero-big {
+        font-size: 30px;
+        line-height: 18px;
+        font-family: 'Bowlby One SC', cursive;
+    }
+    .hero-sub {
+        font-size: 20px;
+        line-height: 15px;
+        font-family: 'Bowlby One SC', cursive;
+    }
+}
+

@@ -160,3 +160,14 @@ li {
 .jobs-banner .dark-shade {
     color: #d5a0b7
 }
+
+li {
+    margin-left: 10px; 
+}
+
+
+@media screen and (max-width: 600px) {
+    .menu-items-container {
+        width: 90%;
+    }
+}

@@ -141,48 +141,19 @@ div.active {
     display: block;
 }
 
-@media screen and (max-width: 600px) {
-    .navbar.responsive {
-        position: relative;
-    }
-    .navbar.responsive a.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    .navbar.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-    .navbar.responsive .dropdown 
-    {
-        float: none;
-    }
-    .navbar.responsive .dropdown-menu 
-    {
-        position: relative;
-    }
-    .navbar.responsive .dropdown .dropbtn {
-        display: block;
-        width: 100%;
-        text-align: left;
-    }
-}
-
 .hero {
     width: 500px;
     height: 200px;
     padding: 25px;
 }
 .hero-big {
-    font-size: 60px;
-    line-height: 44px;
+    font-size: 50px;
+    line-height: 40px;
     font-family: 'Bowlby One SC', cursive;
 }
 .hero-sub {
-    font-size: 40px;
-    line-height: 32px;
+    font-size: 32px;
+    line-height: 25px;
     font-family: 'Bowlby One SC', cursive;
 }
 .hero-text {
@@ -379,3 +350,88 @@ a:visited {
     text-align: center;
     color: #d5a0b7;  
 }
+
+
+
+
+@media screen and (max-width: 1258px) {
+    .hero-big {
+        font-size: 45px;
+        line-height: 38px;
+        font-family: 'Bowlby One SC', cursive;
+    }
+    .hero-sub {
+        font-size: 28px;
+        line-height: 20px;
+        font-family: 'Bowlby One SC', cursive;
+    }
+
+    .hero-text {
+        font-size: 18px;
+        font-family: 'Julius Sans One', serif;    
+    }
+    
+    .card, .hero-card-content {
+        content: "";
+        width: 300px;
+    }
+    .content-hero {
+        width: 500px;
+        height: 200px;
+        float: none;
+        padding-top: 10px;
+        overflow-wrap: break-word;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .navbar.responsive {
+        position: relative;
+    }
+    .navbar.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .navbar.responsive .dropdown 
+    {
+        float: none;
+    }
+    .navbar.responsive .dropdown-menu 
+    {
+        position: relative;
+    }
+    .navbar.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .column {
+        word-wrap: break-word;
+    }
+
+    .hero-bg, .content-hero-bg {
+        word-wrap: normal;
+    }
+    .hero {
+        min-height: 298px;
+    }
+    .content-hero {
+        width: 100vw;
+        margin: 0;
+        padding: 10px;
+    }
+    .light-hero-btn {
+        background: rgb(66,148, 189);
+        border-color: rgb(66,148, 189);
+        color: white;
+    }
+}
+

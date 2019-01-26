@@ -86,7 +86,7 @@ img {
 .menu-nav table {
     padding: 5px;
     width: 95%;
-    margin: auto auto;
+    margin: auto auto auto auto;
     padding-top: 15px;
     border-spacing: 3px 9px;
 }
@@ -131,7 +131,6 @@ tr td:last-child {
     color: #d5a0b7;
 }
 
-
 .gallery:hover .gallery-image {
     -webkit-filter: grayscale(0);
     filter: grayscale(0) blur(0);
@@ -155,10 +154,12 @@ tr td:last-child {
 .gallery:hover .grid-item:hover figcaption {
     opacity: 1;
 }
+
 figcaption {
       margin-top: -0.5rem;
       z-index: 4;
 }
+
 @supports (display: grid) {
     .gallery {
         display: grid;
@@ -172,7 +173,8 @@ figcaption {
     }
 }
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 1010px) {
     .droppable {
         display: none;
     }
@@ -181,11 +183,14 @@ figcaption {
     }
 }
 
-@media only screen and (max-width: 1010px) {
+@media only screen and (max-width: 600px) {
     .droppable {
         display: none;
     }
     .gallery:hover .gallery-image:hover {
         transform: none;
+    }
+    .menu-container {
+        margin-top: -10rem;
     }
 }
