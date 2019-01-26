@@ -7,7 +7,7 @@
 
     <title>Cafenaut - Rocket fuel in a cup</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed|Julius+Sans+One|Knewave|Bowlby+One+SC|Saira|PT+Sans|Lato"
         rel="stylesheet">
@@ -33,8 +33,39 @@
         <nav class="navbar">
             <a class="banner-item active" href="index.html">Home</a>
             <a class="banner-item noselect" href="menu.html">Menu</a>
-            <a class="banner-item noselect" href="about.html">About Us</a>
-            <a class="banner-item noselect" href="jobs.html">Jobs</a>
+            <div class="dropdown-container">
+                <div class="dropdown-banner-item">
+                    <a class="banner-item noselect" href="about.html">About Us</a>
+                    <div class="dropdown-menu">
+                        <ul class="dropdown-items">
+                            <li>
+                                <a class="dropdown-item dark-shade" href="about.html#vision">Vision</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item dark-shade" href="about.html#ethos">Ethos</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item dark-shade" href="about.html#location">Location</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown-container">
+                <div class="dropdown-banner-item">
+                    <a class="noselect" href="jobs.html">Jobs</a>
+                    <div class="dropdown-menu">
+                        <ul class="dropdown-items">
+                            <li>
+                                <a class="dropdown-item dark-shade" href="jobs.html">View Jobs</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item dark-shade" href="jobs.html">Apply</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </nav>
     </div>
     <div class="hero-bg">

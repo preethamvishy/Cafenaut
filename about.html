@@ -32,10 +32,41 @@
     </div>
     <div class="banner">
         <nav class="navbar">
-            <a class="banner-item noselect" href="index.html">Home</a>
+            <a class="banner-item active" href="index.html">Home</a>
             <a class="banner-item noselect" href="menu.html">Menu</a>
-            <a class="banner-item active" href="about.html">About Us</a>
-            <a class="banner-item noselect" href="jobs.html">Jobs</a>
+            <div class="dropdown-container">
+                <div class="dropdown-banner-item">
+                    <a class="banner-item noselect" href="about.html">About Us</a>
+                    <div class="dropdown-menu">
+                        <ul class="dropdown-items">
+                            <li>
+                                <a class="dropdown-item dark-shade" href="about.html#vision">Vision</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item dark-shade" href="about.html#ethos">Ethos</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item dark-shade" href="about.html#location">Location</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="dropdown-container">
+                <div class="dropdown-banner-item">
+                    <a class="noselect" href="jobs.html">Jobs</a>
+                    <div class="dropdown-menu">
+                        <ul class="dropdown-items">
+                            <li>
+                                <a class="dropdown-item dark-shade" href="jobs.html">View Jobs</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item dark-shade" href="jobs.html">Apply</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </nav>
     </div>
     <div class="about-hero-bg">
@@ -55,7 +86,7 @@
             </div>
         </div>
     </div>
-    <div class="row">
+    <div id="vision" class="row">
         <div class="about-column ">
             <div class="about-column-content">
                 <img src="https://images.pexels.com/photos/302898/pexels-photo-302898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
@@ -77,7 +108,7 @@
 
         </div>
     </div>
-    <div class="row">
+    <div id="ethos" class="row">
         <div class="about-column">
             <br>
             <span class="hero-big dark-shade">ETHOS</span>
@@ -97,8 +128,7 @@
             </div>
         </div>
     </div>
-    <div class="row">
-
+    <div id="location" class="row">
         <div class="about-column ">
             <div class="about-column-content">
                 <img src="https://images.pexels.com/photos/297755/pexels-photo-297755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
