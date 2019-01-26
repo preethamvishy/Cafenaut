@@ -160,6 +160,10 @@ figcaption {
       z-index: 4;
 }
 
+/* .menu-items-container table tr td  {
+    background: #ac6885;
+} */
+
 @supports (display: grid) {
     .gallery {
         display: grid;
@@ -191,6 +195,6 @@ figcaption {
         transform: none;
     }
     .menu-container {
-        margin-top: -10rem;
+        margin-top: -9rem;
     }
 }
